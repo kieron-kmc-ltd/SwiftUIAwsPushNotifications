@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF78EE429350A0C005371F8 /* SwiftUIAwsPushNotificationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78EE329350A0C005371F8 /* SwiftUIAwsPushNotificationsApp.swift */; };
+		FEF78EE629350A0C005371F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78EE529350A0C005371F8 /* ContentView.swift */; };
+		FEF78EE829350A0F005371F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF78EE729350A0F005371F8 /* Assets.xcassets */; };
+		FEF78EEB29350A0F005371F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF78EEA29350A0F005371F8 /* Preview Assets.xcassets */; };
+		FEF78EED29350A0F005371F8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78EEC29350A0F005371F8 /* Persistence.swift */; };
+		FEF78EF029350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEF78EEE29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodeld */; };
+		FEF78EFA29350A10005371F8 /* SwiftUIAwsPushNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78EF929350A10005371F8 /* SwiftUIAwsPushNotificationsTests.swift */; };
+		FEF78F0429350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78F0329350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.swift */; };
+		FEF78F0629350A10005371F8 /* SwiftUIAwsPushNotificationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF78F0529350A10005371F8 /* SwiftUIAwsPushNotificationsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF78EF629350A10005371F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF78ED829350A0C005371F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF78EDF29350A0C005371F8;
+			remoteInfo = SwiftUIAwsPushNotifications;
+		};
+		FEF78F0029350A10005371F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF78ED829350A0C005371F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF78EDF29350A0C005371F8;
+			remoteInfo = SwiftUIAwsPushNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEF78EE029350A0C005371F8 /* SwiftUIAwsPushNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAwsPushNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF78EE329350A0C005371F8 /* SwiftUIAwsPushNotificationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAwsPushNotificationsApp.swift; sourceTree = "<group>"; };
+		FEF78EE529350A0C005371F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEF78EE729350A0F005371F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF78EEA29350A0F005371F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEF78EEC29350A0F005371F8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FEF78EEF29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIAwsPushNotifications.xcdatamodel; sourceTree = "<group>"; };
+		FEF78EF529350A10005371F8 /* SwiftUIAwsPushNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAwsPushNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF78EF929350A10005371F8 /* SwiftUIAwsPushNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAwsPushNotificationsTests.swift; sourceTree = "<group>"; };
+		FEF78EFF29350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAwsPushNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF78F0329350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAwsPushNotificationsUITests.swift; sourceTree = "<group>"; };
+		FEF78F0529350A10005371F8 /* SwiftUIAwsPushNotificationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAwsPushNotificationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF78EDD29350A0C005371F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EF229350A10005371F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EFC29350A10005371F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF78ED729350A0C005371F8 = {
+			isa = PBXGroup;
+			children = (
+				FEF78EE229350A0C005371F8 /* SwiftUIAwsPushNotifications */,
+				FEF78EF829350A10005371F8 /* SwiftUIAwsPushNotificationsTests */,
+				FEF78F0229350A10005371F8 /* SwiftUIAwsPushNotificationsUITests */,
+				FEF78EE129350A0C005371F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF78EE129350A0C005371F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF78EE029350A0C005371F8 /* SwiftUIAwsPushNotifications.app */,
+				FEF78EF529350A10005371F8 /* SwiftUIAwsPushNotificationsTests.xctest */,
+				FEF78EFF29350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF78EE229350A0C005371F8 /* SwiftUIAwsPushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				FEF78EE329350A0C005371F8 /* SwiftUIAwsPushNotificationsApp.swift */,
+				FEF78EE529350A0C005371F8 /* ContentView.swift */,
+				FEF78EE729350A0F005371F8 /* Assets.xcassets */,
+				FEF78EEC29350A0F005371F8 /* Persistence.swift */,
+				FEF78EEE29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodeld */,
+				FEF78EE929350A0F005371F8 /* Preview Content */,
+			);
+			path = SwiftUIAwsPushNotifications;
+			sourceTree = "<group>";
+		};
+		FEF78EE929350A0F005371F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEF78EEA29350A0F005371F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEF78EF829350A10005371F8 /* SwiftUIAwsPushNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF78EF929350A10005371F8 /* SwiftUIAwsPushNotificationsTests.swift */,
+			);
+			path = SwiftUIAwsPushNotificationsTests;
+			sourceTree = "<group>";
+		};
+		FEF78F0229350A10005371F8 /* SwiftUIAwsPushNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF78F0329350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.swift */,
+				FEF78F0529350A10005371F8 /* SwiftUIAwsPushNotificationsUITestsLaunchTests.swift */,
+			);
+			path = SwiftUIAwsPushNotificationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF78EDF29350A0C005371F8 /* SwiftUIAwsPushNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF78F0929350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotifications" */;
+			buildPhases = (
+				FEF78EDC29350A0C005371F8 /* Sources */,
+				FEF78EDD29350A0C005371F8 /* Frameworks */,
+				FEF78EDE29350A0C005371F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAwsPushNotifications;
+			productName = SwiftUIAwsPushNotifications;
+			productReference = FEF78EE029350A0C005371F8 /* SwiftUIAwsPushNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF78EF429350A10005371F8 /* SwiftUIAwsPushNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF78F0C29350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotificationsTests" */;
+			buildPhases = (
+				FEF78EF129350A10005371F8 /* Sources */,
+				FEF78EF229350A10005371F8 /* Frameworks */,
+				FEF78EF329350A10005371F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF78EF729350A10005371F8 /* PBXTargetDependency */,
+			);
+			name = SwiftUIAwsPushNotificationsTests;
+			productName = SwiftUIAwsPushNotificationsTests;
+			productReference = FEF78EF529350A10005371F8 /* SwiftUIAwsPushNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEF78EFE29350A10005371F8 /* SwiftUIAwsPushNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF78F0F29350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotificationsUITests" */;
+			buildPhases = (
+				FEF78EFB29350A10005371F8 /* Sources */,
+				FEF78EFC29350A10005371F8 /* Frameworks */,
+				FEF78EFD29350A10005371F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF78F0129350A10005371F8 /* PBXTargetDependency */,
+			);
+			name = SwiftUIAwsPushNotificationsUITests;
+			productName = SwiftUIAwsPushNotificationsUITests;
+			productReference = FEF78EFF29350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF78ED829350A0C005371F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FEF78EDF29350A0C005371F8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FEF78EF429350A10005371F8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FEF78EDF29350A0C005371F8;
+					};
+					FEF78EFE29350A10005371F8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FEF78EDF29350A0C005371F8;
+					};
+				};
+			};
+			buildConfigurationList = FEF78EDB29350A0C005371F8 /* Build configuration list for PBXProject "SwiftUIAwsPushNotifications" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF78ED729350A0C005371F8;
+			productRefGroup = FEF78EE129350A0C005371F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF78EDF29350A0C005371F8 /* SwiftUIAwsPushNotifications */,
+				FEF78EF429350A10005371F8 /* SwiftUIAwsPushNotificationsTests */,
+				FEF78EFE29350A10005371F8 /* SwiftUIAwsPushNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF78EDE29350A0C005371F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF78EEB29350A0F005371F8 /* Preview Assets.xcassets in Resources */,
+				FEF78EE829350A0F005371F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EF329350A10005371F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EFD29350A10005371F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF78EDC29350A0C005371F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF78EF029350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodeld in Sources */,
+				FEF78EED29350A0F005371F8 /* Persistence.swift in Sources */,
+				FEF78EE629350A0C005371F8 /* ContentView.swift in Sources */,
+				FEF78EE429350A0C005371F8 /* SwiftUIAwsPushNotificationsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EF129350A10005371F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF78EFA29350A10005371F8 /* SwiftUIAwsPushNotificationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF78EFB29350A10005371F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF78F0429350A10005371F8 /* SwiftUIAwsPushNotificationsUITests.swift in Sources */,
+				FEF78F0629350A10005371F8 /* SwiftUIAwsPushNotificationsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF78EF729350A10005371F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF78EDF29350A0C005371F8 /* SwiftUIAwsPushNotifications */;
+			targetProxy = FEF78EF629350A10005371F8 /* PBXContainerItemProxy */;
+		};
+		FEF78F0129350A10005371F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF78EDF29350A0C005371F8 /* SwiftUIAwsPushNotifications */;
+			targetProxy = FEF78F0029350A10005371F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEF78F0729350A10005371F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF78F0829350A10005371F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF78F0A29350A10005371F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAwsPushNotifications/Preview Content\"";
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF78F0B29350A10005371F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAwsPushNotifications/Preview Content\"";
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEF78F0D29350A10005371F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotificationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAwsPushNotifications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIAwsPushNotifications";
+			};
+			name = Debug;
+		};
+		FEF78F0E29350A10005371F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotificationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAwsPushNotifications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIAwsPushNotifications";
+			};
+			name = Release;
+		};
+		FEF78F1029350A10005371F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotificationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIAwsPushNotifications;
+			};
+			name = Debug;
+		};
+		FEF78F1129350A10005371F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89H685KMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ltd.kmc-technologies.SwiftUIAwsPushNotificationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIAwsPushNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF78EDB29350A0C005371F8 /* Build configuration list for PBXProject "SwiftUIAwsPushNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF78F0729350A10005371F8 /* Debug */,
+				FEF78F0829350A10005371F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF78F0929350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF78F0A29350A10005371F8 /* Debug */,
+				FEF78F0B29350A10005371F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF78F0C29350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF78F0D29350A10005371F8 /* Debug */,
+				FEF78F0E29350A10005371F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF78F0F29350A10005371F8 /* Build configuration list for PBXNativeTarget "SwiftUIAwsPushNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF78F1029350A10005371F8 /* Debug */,
+				FEF78F1129350A10005371F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEF78EEE29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEF78EEF29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodel */,
+			);
+			currentVersion = FEF78EEF29350A0F005371F8 /* SwiftUIAwsPushNotifications.xcdatamodel */;
+			path = SwiftUIAwsPushNotifications.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEF78ED829350A0C005371F8 /* Project object */;
+}
